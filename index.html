@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Photos</title>
+  </head>
+  <body>
+    <h1>Cat-Photo-App</h1>
+
+    <main>
+      <p>
+        Click here to see more
+        <a target="_blank" href="https://catphotos.com">Cat Photos</a>
+      </p>
+      <a href="#">
+        <img
+          src="https://m.media-amazon.com/images/I/51f+vTFAOIL._AC_SY355_.jpg"
+          alt="a cat"
+        />
+      </a>
+
+      <form action="/submit-cat-photo">
+        <label>
+          <!-- the name must be the same so the radio buttons works -->
+          <input type="radio" name="in-out" id="" /> indoor
+        </label>
+        <label> <input type="radio" name="in-out" id="" /> outdoor </label>
+        <input placeholder="url" type="text" name="name" id="name" required />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
